@@ -110,7 +110,7 @@
 				TargetAttributes = {
 					296888B71D8A1A81005DF283 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BRE9J5DZ66;
+						DevelopmentTeam = M8EWD5RRQ3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,7 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BRE9J5DZ66;
+				DEVELOPMENT_TEAM = M8EWD5RRQ3;
 				INFOPLIST_FILE = SITableViewForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shawnirvin.SITableViewForm;
@@ -285,7 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BRE9J5DZ66;
+				DEVELOPMENT_TEAM = M8EWD5RRQ3;
 				INFOPLIST_FILE = SITableViewForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shawnirvin.SITableViewForm;
