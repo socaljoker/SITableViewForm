@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Form.h
 //  SITableViewForm
 //
 //  Created by Shawn Irvin on 9/14/16.
 //  Copyright © 2016 Shawn Irvin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface Form : NSObject
 
+@property (strong, nonatomic, nonnull) NSArray *groups;
 
 @end
-
