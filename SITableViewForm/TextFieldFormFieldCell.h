@@ -8,8 +8,12 @@
 
 #import "FormFieldTableViewCell.h"
 
+#define TextFieldFormFieldIdentifier @"TEXTFIELDFORMFIELD"
+
 @interface TextFieldFormFieldCell : FormFieldTableViewCell
 
--(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UILabel *subtitleLabel;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 
 @end

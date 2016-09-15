@@ -10,30 +10,21 @@
 
 @implementation TextFieldFormFieldCell
 
--(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
-    self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
+-(instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
     if (self) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         
-        UITextField *textField = [UITextField new];
-        textField.text = @"Test";
-        [self.contentView addSubview:textField];
-        
-        [textField setTranslatesAutoresizingMaskIntoConstraints:NO];
-        
-        NSDictionary *views = NSDictionaryOfVariableBindings(textField);
-        NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[textField]-5-|"
-                                                                       options: NSLayoutFormatAlignAllCenterX
-                                                                       metrics:nil
-                                                                         views:views];
-        [self.contentView addConstraints:constraints];
-        constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-5-[textField]-5-|"
-                                                              options: NSLayoutFormatAlignAllCenterX
-                                                              metrics:nil
-                                                                views:views];
-        [self.contentView addConstraints:constraints];
+        self.titleLabel.text = self.field.title;
+        self.subtitleLabel.text = self.field.subtitle;
     }
     return self;
+}
+
+-(void)setField:(FormField *)field {
+    [super setField:field];
+    self.titleLabel.text = self.field.title;
+    self.subtitleLabel.text = self.field.subtitle;
 }
 
 @end

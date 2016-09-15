@@ -16,4 +16,6 @@
 @property (strong, nonatomic, nullable) NSString *subtitle;
 @property (strong, nonatomic, nullable) Validator *validator;
 
+-(instancetype _Nonnull)initWithIdentifier:(NSString * _Nullable)identifier title:(NSString * _Nullable)title subtitle:(NSString * _Nullable)subtitle validator:(Validator * _Nullable)validator;
+
 @end

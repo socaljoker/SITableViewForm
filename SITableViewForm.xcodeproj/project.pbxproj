@@ -13,9 +13,8 @@
 		291A6B811D8A5489000C7D24 /* AttributedStringFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B801D8A5489000C7D24 /* AttributedStringFormField.m */; };
 		291A6B921D8A5499000C7D24 /* BooleanFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B831D8A5499000C7D24 /* BooleanFormField.m */; };
 		291A6B931D8A5499000C7D24 /* DateFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B851D8A5499000C7D24 /* DateFormField.m */; };
-		291A6B941D8A5499000C7D24 /* Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B871D8A5499000C7D24 /* Form.m */; };
 		291A6B951D8A5499000C7D24 /* FormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B891D8A5499000C7D24 /* FormField.m */; };
-		291A6B961D8A5499000C7D24 /* FormFieldGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B8B1D8A5499000C7D24 /* FormFieldGroup.m */; };
+		291A6B961D8A5499000C7D24 /* FormFieldSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B8B1D8A5499000C7D24 /* FormFieldSection.m */; };
 		291A6B971D8A5499000C7D24 /* NumberFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B8D1D8A5499000C7D24 /* NumberFormField.m */; };
 		291A6B991D8A5499000C7D24 /* StringFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B911D8A5499000C7D24 /* StringFormField.m */; };
 		291A6B9C1D8A54FB000C7D24 /* ObjectSelectionFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6B9B1D8A54FB000C7D24 /* ObjectSelectionFormField.m */; };
@@ -27,6 +26,9 @@
 		291A6BB61D8A66E7000C7D24 /* FormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6BB51D8A66E7000C7D24 /* FormTableViewController.m */; };
 		291A6BB91D8A6A0C000C7D24 /* FormFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6BB81D8A6A0C000C7D24 /* FormFieldTableViewCell.m */; };
 		291A6BBC1D8A6B99000C7D24 /* TextFieldFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A6BBB1D8A6B99000C7D24 /* TextFieldFormFieldCell.m */; };
+		29683A871D8B1B4F00F0FBBD /* TextFieldFormFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29683A861D8B1B4F00F0FBBD /* TextFieldFormFieldCell.xib */; };
+		29683A8A1D8B261100F0FBBD /* FormBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29683A891D8B261100F0FBBD /* FormBuilder.m */; };
+		29683A8D1D8B27E100F0FBBD /* FormBuilderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 29683A8C1D8B27E100F0FBBD /* FormBuilderElement.m */; };
 		296888BD1D8A1A81005DF283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296888BC1D8A1A81005DF283 /* main.m */; };
 		296888C01D8A1A81005DF283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 296888BF1D8A1A81005DF283 /* AppDelegate.m */; };
 		296888C61D8A1A81005DF283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296888C41D8A1A81005DF283 /* Main.storyboard */; };
@@ -48,12 +50,10 @@
 		291A6B831D8A5499000C7D24 /* BooleanFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooleanFormField.m; sourceTree = "<group>"; };
 		291A6B841D8A5499000C7D24 /* DateFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFormField.h; sourceTree = "<group>"; };
 		291A6B851D8A5499000C7D24 /* DateFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFormField.m; sourceTree = "<group>"; };
-		291A6B861D8A5499000C7D24 /* Form.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Form.h; sourceTree = "<group>"; };
-		291A6B871D8A5499000C7D24 /* Form.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Form.m; sourceTree = "<group>"; };
 		291A6B881D8A5499000C7D24 /* FormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormField.h; sourceTree = "<group>"; };
 		291A6B891D8A5499000C7D24 /* FormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormField.m; sourceTree = "<group>"; };
-		291A6B8A1D8A5499000C7D24 /* FormFieldGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormFieldGroup.h; sourceTree = "<group>"; };
-		291A6B8B1D8A5499000C7D24 /* FormFieldGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormFieldGroup.m; sourceTree = "<group>"; };
+		291A6B8A1D8A5499000C7D24 /* FormFieldSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormFieldSection.h; sourceTree = "<group>"; };
+		291A6B8B1D8A5499000C7D24 /* FormFieldSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormFieldSection.m; sourceTree = "<group>"; };
 		291A6B8C1D8A5499000C7D24 /* NumberFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormField.h; sourceTree = "<group>"; };
 		291A6B8D1D8A5499000C7D24 /* NumberFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormField.m; sourceTree = "<group>"; };
 		291A6B901D8A5499000C7D24 /* StringFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFormField.h; sourceTree = "<group>"; };
@@ -76,6 +76,11 @@
 		291A6BB81D8A6A0C000C7D24 /* FormFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormFieldTableViewCell.m; sourceTree = "<group>"; };
 		291A6BBA1D8A6B99000C7D24 /* TextFieldFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldFormFieldCell.h; sourceTree = "<group>"; };
 		291A6BBB1D8A6B99000C7D24 /* TextFieldFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldFormFieldCell.m; sourceTree = "<group>"; };
+		29683A861D8B1B4F00F0FBBD /* TextFieldFormFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldFormFieldCell.xib; sourceTree = "<group>"; };
+		29683A881D8B261100F0FBBD /* FormBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormBuilder.h; sourceTree = "<group>"; };
+		29683A891D8B261100F0FBBD /* FormBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormBuilder.m; sourceTree = "<group>"; };
+		29683A8B1D8B27E100F0FBBD /* FormBuilderElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormBuilderElement.h; sourceTree = "<group>"; };
+		29683A8C1D8B27E100F0FBBD /* FormBuilderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormBuilderElement.m; sourceTree = "<group>"; };
 		296888B81D8A1A81005DF283 /* SITableViewForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITableViewForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296888BC1D8A1A81005DF283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		296888BE1D8A1A81005DF283 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +113,7 @@
 				291A6BB81D8A6A0C000C7D24 /* FormFieldTableViewCell.m */,
 				291A6BBA1D8A6B99000C7D24 /* TextFieldFormFieldCell.h */,
 				291A6BBB1D8A6B99000C7D24 /* TextFieldFormFieldCell.m */,
+				29683A861D8B1B4F00F0FBBD /* TextFieldFormFieldCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,18 +178,20 @@
 				291A6B831D8A5499000C7D24 /* BooleanFormField.m */,
 				291A6B841D8A5499000C7D24 /* DateFormField.h */,
 				291A6B851D8A5499000C7D24 /* DateFormField.m */,
-				291A6B861D8A5499000C7D24 /* Form.h */,
-				291A6B871D8A5499000C7D24 /* Form.m */,
 				291A6B881D8A5499000C7D24 /* FormField.h */,
 				291A6B891D8A5499000C7D24 /* FormField.m */,
-				291A6B8A1D8A5499000C7D24 /* FormFieldGroup.h */,
-				291A6B8B1D8A5499000C7D24 /* FormFieldGroup.m */,
+				291A6B8A1D8A5499000C7D24 /* FormFieldSection.h */,
+				291A6B8B1D8A5499000C7D24 /* FormFieldSection.m */,
 				291A6B8C1D8A5499000C7D24 /* NumberFormField.h */,
 				291A6B8D1D8A5499000C7D24 /* NumberFormField.m */,
 				291A6B901D8A5499000C7D24 /* StringFormField.h */,
 				291A6B911D8A5499000C7D24 /* StringFormField.m */,
 				291A6B7F1D8A5489000C7D24 /* AttributedStringFormField.h */,
 				291A6B801D8A5489000C7D24 /* AttributedStringFormField.m */,
+				29683A881D8B261100F0FBBD /* FormBuilder.h */,
+				29683A891D8B261100F0FBBD /* FormBuilder.m */,
+				29683A8B1D8B27E100F0FBBD /* FormBuilderElement.h */,
+				29683A8C1D8B27E100F0FBBD /* FormBuilderElement.m */,
 			);
 			name = Form;
 			sourceTree = "<group>";
@@ -270,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29683A871D8B1B4F00F0FBBD /* TextFieldFormFieldCell.xib in Resources */,
 				296888D31D8A1C0F005DF283 /* Launch Screen.storyboard in Resources */,
 				296888C81D8A1A81005DF283 /* Assets.xcassets in Resources */,
 				296888C61D8A1A81005DF283 /* Main.storyboard in Resources */,
@@ -285,7 +294,7 @@
 			files = (
 				291A6BB11D8A6104000C7D24 /* NilValueValidator.m in Sources */,
 				291A6BAE1D8A6031000C7D24 /* ArrayValidator.m in Sources */,
-				291A6B961D8A5499000C7D24 /* FormFieldGroup.m in Sources */,
+				291A6B961D8A5499000C7D24 /* FormFieldSection.m in Sources */,
 				291A6BA21D8A56D8000C7D24 /* IntegerValidator.m in Sources */,
 				291A6B991D8A5499000C7D24 /* StringFormField.m in Sources */,
 				2968891E1D8A2B2B005DF283 /* Validator.m in Sources */,
@@ -295,7 +304,7 @@
 				291A6B931D8A5499000C7D24 /* DateFormField.m in Sources */,
 				291A6B7E1D8A43DC000C7D24 /* StringValidator.m in Sources */,
 				291A6B7B1D8A3530000C7D24 /* RegexValidator.m in Sources */,
-				291A6B941D8A5499000C7D24 /* Form.m in Sources */,
+				29683A8D1D8B27E100F0FBBD /* FormBuilderElement.m in Sources */,
 				296888C01D8A1A81005DF283 /* AppDelegate.m in Sources */,
 				291A6B921D8A5499000C7D24 /* BooleanFormField.m in Sources */,
 				291A6BA81D8A5B42000C7D24 /* MultipleObjectSelectionFormField.m in Sources */,
@@ -304,6 +313,7 @@
 				291A6BB91D8A6A0C000C7D24 /* FormFieldTableViewCell.m in Sources */,
 				291A6BBC1D8A6B99000C7D24 /* TextFieldFormFieldCell.m in Sources */,
 				296888BD1D8A1A81005DF283 /* main.m in Sources */,
+				29683A8A1D8B261100F0FBBD /* FormBuilder.m in Sources */,
 				291A6BA51D8A56E3000C7D24 /* DecimalValidator.m in Sources */,
 				291A6B781D8A2BE4000C7D24 /* BlockValidator.m in Sources */,
 			);

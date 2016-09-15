@@ -10,4 +10,8 @@
 
 @implementation FormFieldTableViewCell
 
+-(void)setField:(FormField *)field {
+    _field = field;
+}
+
 @end

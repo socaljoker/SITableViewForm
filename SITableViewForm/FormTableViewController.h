@@ -11,6 +11,14 @@
 #import "FormField.h"
 #import "FormFieldTableViewCell.h"
 
+#import "StringFormField.h"
+#import "NumberFormField.h"
+#import "DateFormField.h"
+#import "AttributedStringFormField.h"
+#import "BooleanFormField.h"
+#import "ObjectSelectionFormField.h"
+#import "MultipleObjectSelectionFormField.h"
+
 @interface FormTableViewController : UITableViewController
 
 @property (strong, nonatomic, nonnull) Form *form;

@@ -9,6 +9,14 @@
 #import "FormTableViewController.h"
 #import "TextFieldFormFieldCell.h"
 
+#import "StringFormField.h"
+#import "NumberFormField.h"
+#import "DateFormField.h"
+#import "AttributedStringFormField.h"
+#import "BooleanFormField.h"
+#import "ObjectSelectionFormField.h"
+#import "MultipleObjectSelectionFormField.h"
+
 @interface FormTableViewController ()
 
 @end
@@ -19,6 +27,8 @@
     [super viewDidLoad];
     
     self.clearsSelectionOnViewWillAppear = NO;
+    
+    [self.tableView registerNib:[UINib nibWithNibName:@"TextFieldFormFieldCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:TextFieldFormFieldIdentifier];
 }
 
 #pragma mark - Table view data source
@@ -32,8 +42,14 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    StringFormField *field = [StringFormField new];
+    field.title = @"This is a test";
+    field.subtitle = @"Testing";
+    
     if (indexPath.row == 0) {
-        TextFieldFormFieldCell *cell = [[TextFieldFormFieldCell alloc] initWithReuseIdentifier:nil];
+        TextFieldFormFieldCell *cell = [tableView dequeueReusableCellWithIdentifier:TextFieldFormFieldIdentifier];
+        
+        cell.field = field;
         
         return cell;
     }
