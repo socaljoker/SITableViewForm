@@ -15,7 +15,8 @@ typedef enum : NSUInteger {
     NSValidationErrorBeyondMinValue,
     NSValidationErrorValueNotEqual,
     NSValidationErrorContainsRestrictedCharacters,
-    NSValidationErrorInvalidFormat
+    NSValidationErrorInvalidFormat,
+    NSValidationErrorEmptyValue
 } NSValidationError;
 
 @interface Validator : NSObject

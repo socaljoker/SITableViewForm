@@ -1,5 +1,5 @@
 //
-//  Form.h
+//  FormFieldTableViewCell.h
 //  SITableViewForm
 //
 //  Created by Shawn Irvin on 9/14/16.
@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "FormField.h"
 
-@interface Form : NSObject
+@interface FormFieldTableViewCell : UITableViewCell
 
-@property (strong, nonatomic, nonnull) NSArray *groups;
-
--(FormField * _Nullable)formFieldAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@property (strong, nonatomic, nonnull) FormField *field;
 
 @end

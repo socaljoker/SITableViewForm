@@ -25,4 +25,8 @@
     
 }
 
+-(FormField *)formFieldAtIndexPath:(NSIndexPath *)indexPath {
+    return [[self.groups objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+}
+
 @end

@@ -11,6 +11,7 @@
 
 @interface FormField : NSObject
 
+@property (strong, nonatomic, nullable) NSString *identifier;
 @property (strong, nonatomic, nullable) NSString *title;
 @property (strong, nonatomic, nullable) NSString *subtitle;
 @property (strong, nonatomic, nullable) Validator *validator;
